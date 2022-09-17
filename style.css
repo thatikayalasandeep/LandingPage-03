@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200;1,700&family=Oswald:wght@200;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+/* .container{
+    margin-left: 20px;
+} */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    /* background-color: #1f1f1b; */
+    background-color: #040502c5;
+}
+.logo{
+    margin-left: 50px;
+    height: 50px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+}
+.list-item{
+padding: 30px;
+color: #ffffff;
+font-family: "red rose";
+font-weight: 300;
+}
+.home{
+    font-weight: bolder;
+}
+.button-small{
+    padding: 10px 30px;
+    margin-right:100px ;
+    font-family: "red rose";
+    /* font-family: "Red Rose"; */
+    font-weight: 400;
+    font-size: 15px;
+    /* align-items: center; */
+    border: 2px solid #A77B06;
+    background-color: #242B2E;
+    /* background-color: #040502c5; */
+    border-radius: 9px;
+    color: #A77B06;
+}
+.button-small:hover{
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #040502c5;
+    /* background-color: #242B2E; */
+    color: #ffffff;
+    height: 30vh;
+}
+.hero-heading{
+    /* font-family: "Dela Gothic One"; */
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 50px;
+    text-align: start;
+    margin-left: 40px;
+}
+.hero-info{
+    text-align: start;
+    align-items: center;
+    font-family: "red rose";
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 200px;
+
+}
