@@ -1,4 +1,4 @@
-## Landing Page - 02
+## Landing Page - 03
 ---
 This `Lading Page - 03` project developed using HTML5 and CSS. By this project learnt position, background color opacity techniques and other techniques
 
